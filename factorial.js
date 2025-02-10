@@ -14,6 +14,9 @@ function factorial() {
          resultado = resultado * i; 
      }
 
+    //Probando en consola como ventana emergente
     console.log(`El factorial de ${numero} es: ${resultado}`);
+    
+    //Mostrando el resultado en el HTML
     document.getElementById("resultado").textContent = `El factorial de ${numero} es: ${resultado}`;
 }
